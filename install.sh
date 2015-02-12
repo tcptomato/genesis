@@ -11,3 +11,5 @@ sudo apt-get install imagemagick libopencv-dev gimp
 
 #latex
 sudo apt-get install texmaker
+
+sudo apt-get install nano
