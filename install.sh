@@ -4,7 +4,7 @@
 sudo apt-get install fping nmap wireshark
 
 #development stuff
-sudo apt-get install build-essential subversion valgrind clang
+sudo apt-get install build-essential subversion valgrind clang dwarves
 
 #iamge processing stuff
 sudo apt-get install imagemagick libopencv-dev gimp
