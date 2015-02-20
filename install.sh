@@ -1,5 +1,6 @@
 #!/bin/bash
 
+sudo apt-get update
 #networking stuff
 sudo apt-get install fping nmap wireshark
 
