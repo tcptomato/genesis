@@ -18,4 +18,9 @@ sudo apt-get install nano
 
 
 
+#recover deleted files
+sudo apt-get install testdisk foremost scalpel gddrescue
 
+#ddrescue --no-split /dev/hda1 imagefile logfile gddrescue
+#ddrescue --direct --max-retries=3 /dev/hda1 imagefile logfile 
+#ddrescue --direct --retrim --max-retries=3 /dev/hda1 imagefile logfile 
