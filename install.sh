@@ -24,3 +24,9 @@ sudo apt-get install testdisk foremost scalpel gddrescue
 #ddrescue --no-split /dev/hda1 imagefile logfile gddrescue
 #ddrescue --direct --max-retries=3 /dev/hda1 imagefile logfile 
 #ddrescue --direct --retrim --max-retries=3 /dev/hda1 imagefile logfile 
+
+#spotify
+sudo apt-add-repository -y "deb http://repository.spotify.com stable non-free" &&
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 94558F59 &&
+sudo apt-get update -qq &&
+sudo apt-get install spotify-client
